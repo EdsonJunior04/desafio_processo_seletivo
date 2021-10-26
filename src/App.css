@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.color{
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(to right, #0633CF, #076DD9,#0492C2);
+}
+
+.btn_pesquisar{
+  background-color: white;
+  width: 60px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+.tabela{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  color: white;
+
+}
+.espaco{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desce{
+  color: white;
+  display: flex;
+  justify-content: center;
+  }
+.posicao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.ajuste_section{
+  margin-top:  10px;
+  justify-content: space-between;
+}
+
+.ajuste_main{
+
+margin-top: 210px;
+}
+
+.separar{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+}
